@@ -1,19 +1,19 @@
 robot_calibration:
   ros__parameters:
     verbose: true
-    base_link: torso_lift_link
+    base_link: world
     calibration_steps:
     - single_calibration_step
     single_calibration_step:
       models:
       - kuka_robot
-      - camera
+      - rc_camera
       kuka_robot:
         type: chain3d
         frame: flange
-      camera:
+      rc_camera:
         type: camera3d
-        frame: rc_visard_frame
+        frame: camera
       free_params:
       - external1
       - joint1
@@ -29,9 +29,9 @@ robot_calibration:
       #- camera_z_offset
       #- camera_z_scaling
       free_frames:
-      - rc_visard_frame
+      - camera
       - checkerboard
-      rc_visard_frame:
+      camera:
         x: true
         y: true
         z: true
@@ -50,8 +50,17 @@ robot_calibration:
       #- restrict_camera # what is this
       hand_eye:
         type: chain3d_to_chain3d
-        model_a: camera
+        model_a: rc_camera
         model_b: kuka_robot
+    free_frames_initial_values:
+      - checkerboard
+    checkerboard_initial_values:
+      x: 0.0
+      y: 0.0
+      z: 0.2  
+      roll: 0.0
+      pitch: 0.0
+      yaw: 0.0
       #ground_plane:
       #  type: chain3d_to_plane
       #  model: ground_camera

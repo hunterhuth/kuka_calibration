@@ -3,7 +3,7 @@ robot_calibration:
     chains:
     - kuka_robot
     kuka_robot:
-      topic: /arm_controller/follow_joint_trajectory
+      topic: /joint_trajectory_controller/follow_joint_trajectory
       joints:
       - external1
       - joint1
@@ -16,9 +16,9 @@ robot_calibration:
     features:
     - checkerboard_finder
     checkerboard_finder:
-      type: robot_calibration::CheckerboardFinder
-      topic: /head_camera/rgb/image_raw
-      camera_sensor_name: camera
+      type: robot_calibration::CheckerboardFinder2d
+      topic: /stereo/points2
+      camera_sensor_name: rc_camera
       chain_sensor_name: kuka_robot
       debug: false
       points_x: 11

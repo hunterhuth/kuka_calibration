@@ -105,13 +105,6 @@ def generate_launch_description():
         arguments=["joint_trajectory_controller", "--controller-manager", "/controller_manager"],
     )
 
-    # Delay rviz start after `joint_state_broadcaster`
-    delay_rviz_after_joint_state_broadcaster_spawner = RegisterEventHandler(
-        event_handler=OnProcessExit(
-            target_action=joint_state_broadcaster_spawner,
-            on_exit=[rviz_node],
-        )
-    )
 
     # Delay start of robot_controller after `joint_state_broadcaster`
     delay_robot_controller_spawner_after_joint_state_broadcaster_spawner = RegisterEventHandler(
@@ -142,6 +135,15 @@ def generate_launch_description():
         'calibration_poses.yaml'
     )
 
+    rc_genicam_driver_node = Node(
+        package='rc_genicam_driver',
+        executable='rc_genicam_driver',
+        output='screen',
+        parameters=[{
+            'device': ':06864352'
+            }]
+    )
+
     # Make a directory for bagfiles to be located
     try:
         os.mkdir("/tmp/kuka_calibration")
@@ -153,14 +155,7 @@ def generate_launch_description():
         robot_state_pub_node,
         joint_state_broadcaster_spawner,
         robot_controller_spawner,
-        # Turn off auto exposure on camera for better results
-        Node(
-            name='camera_reconfigure',
-            package='ubr1_calibration',
-            executable='camera_reconfigure.py',
-            arguments=['--disable'],
-            output='screen'
-        ),
+        rc_genicam_driver_node,
         # Calibration
         Node(
             name='robot_calibration',
