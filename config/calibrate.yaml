@@ -1,0 +1,68 @@
+robot_calibration:
+  ros__parameters:
+    verbose: true
+    base_link: torso_lift_link
+    calibration_steps:
+    - single_calibration_step
+    single_calibration_step:
+      models:
+      - kuka_robot
+      - camera
+      kuka_robot:
+        type: chain3d
+        frame: flange
+      camera:
+        type: camera3d
+        frame: rc_visard_frame
+      free_params:
+      - external1
+      - joint1
+      - joint2
+      - joint3
+      - joint4
+      - joint5
+      - joint6
+      #- camera_fx # do i delete the rest of these?
+      #- camera_fy
+      #- camera_cx
+      #- camera_cy
+      #- camera_z_offset
+      #- camera_z_scaling
+      free_frames:
+      - rc_visard_frame
+      - checkerboard
+      rc_visard_frame:
+        x: true
+        y: true
+        z: true
+        roll: true
+        pitch: true
+        yaw: true
+      checkerboard:
+        x: true
+        y: true
+        z: true
+        roll: true
+        pitch: true
+        yaw: true
+      error_blocks:
+      - hand_eye
+      #- restrict_camera # what is this
+      hand_eye:
+        type: chain3d_to_chain3d
+        model_a: camera
+        model_b: kuka_robot
+      #ground_plane:
+      #  type: chain3d_to_plane
+      #  model: ground_camera
+      #  a: 0.0
+      #  b: 0.0
+      #  c: 1.0
+      #  d: 0.0
+      #  scale: 1.0
+      #restrict_camera:
+      #  type: outrageous
+      #  param: head_camera_rgb_joint
+      #  joint_scale: 0.0
+      #  position_scale: 0.1
+      #  rotation_scale: 0.1

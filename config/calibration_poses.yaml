@@ -1,0 +1,19 @@
+- features: []
+    joints:
+      - external1
+      - joint1
+      - joint2
+      - joint3
+      - joint4
+      - joint5
+      - joint6
+    positions:
+      - 2.93127
+      - 1.4809119
+      - -0.90530228
+      - 1.81217536
+      - -0.18168878
+      - -0.885231
+      - 0.0942478
+
+

@@ -1,0 +1,26 @@
+robot_calibration:
+  ros__parameters:
+    chains:
+    - kuka_robot
+    kuka_robot:
+      topic: /arm_controller/follow_joint_trajectory
+      joints:
+      - external1
+      - joint1
+      - joint2
+      - joint3
+      - joint4
+      - joint5
+      - joint6
+      #planning_group: arm TODO: revert when moveit is setup
+    features:
+    - checkerboard_finder
+    checkerboard_finder:
+      type: robot_calibration::CheckerboardFinder
+      topic: /head_camera/rgb/image_raw
+      camera_sensor_name: camera
+      chain_sensor_name: kuka_robot
+      debug: false
+      points_x: 11
+      points_y: 6
+      size: 0.025
