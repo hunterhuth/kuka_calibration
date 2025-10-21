@@ -16,11 +16,12 @@ robot_calibration:
     features:
     - checkerboard_finder
     checkerboard_finder:
-      type: robot_calibration::CheckerboardFinder2d
-      topic: /stereo/points2
-      camera_sensor_name: rc_camera
+      type: robot_calibration::CheckerboardFinder
+      topic: /camera/camera/depth/color/points
+      camera_info_topic: /camera/camera/depth/camera_info
+      camera_sensor_name: camera
       chain_sensor_name: kuka_robot
-      debug: false
+      debug: true
       points_x: 11
       points_y: 6
       size: 0.025

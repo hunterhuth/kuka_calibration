@@ -7,31 +7,38 @@ robot_calibration:
     single_calibration_step:
       models:
       - kuka_robot
-      - rc_camera
+      - camera
       kuka_robot:
         type: chain3d
         frame: flange
-      rc_camera:
+      camera:
         type: camera3d
-        frame: camera
-      free_params:
-      - external1
+        frame: camera_depth_optical_frame
+        topic: /camera/camera/depth/color/points
+      #free_params:
+      #- external1
+      #- joint1
+      #- joint2
+      #- joint3
+      #- joint4
+      #- joint5
+      #- joint6
+      #- camera_fx # do i delete the rest of these?
+      #- camera_fy
+      #- camera_cx
+      #- camera_cy
+      free_frames:
+      - virtual 
+      #- external1
       - joint1
       - joint2
       - joint3
       - joint4
       - joint5
       - joint6
-      #- camera_fx # do i delete the rest of these?
-      #- camera_fy
-      #- camera_cx
-      #- camera_cy
-      #- camera_z_offset
-      #- camera_z_scaling
-      free_frames:
-      - camera
+      - camera_joint
       - checkerboard
-      camera:
+      camera_joint:
         x: true
         y: true
         z: true
@@ -45,33 +52,89 @@ robot_calibration:
         roll: true
         pitch: true
         yaw: true
+      virtual:
+        x: true
+        y: true
+        z: true
+        roll: false
+        pitch: false
+        yaw: false
+      external1:
+        x: false
+        y: false
+        z: true
+        roll: false
+        pitch: false
+        yaw: false
+      joint1:
+        x: false
+        y: false
+        z: false
+        roll: false
+        pitch: false
+        yaw: true
+      joint2:
+        x: false
+        y: false
+        z: false
+        roll: false
+        pitch: true
+        yaw: false
+      joint3:
+        x: false
+        y: false
+        z: false
+        roll: false
+        pitch: true
+        yaw: false
+      joint4:
+        x: false
+        y: false
+        z: false
+        roll: true
+        pitch: false
+        yaw: false
+      joint5:
+        x: false
+        y: false
+        z: false
+        roll: false
+        pitch: true
+        yaw: false
+      joint6:
+        x: false
+        y: false
+        z: false
+        roll: true
+        pitch: false
+        yaw: false
+      free_frames_initial_values:
+        - checkerboard
+        - camera_joint
+      checkerboard_initial_values:
+        x: 0.106276
+        y: 0.0654143
+        z: 0.172707
+        roll: -2.2299
+        pitch: 2.21586
+        yaw: 0.0
+      camera_joint_initial_values:
+        x: -0.120581
+        y: 0.0333142
+        z: -0.14848
+        roll: 0.0222982
+        pitch: 0.0718833
+        yaw: -0.000245691
       error_blocks:
-      - hand_eye
-      #- restrict_camera # what is this
+        - hand_eye
+        #- restrict_camra
       hand_eye:
         type: chain3d_to_chain3d
-        model_a: rc_camera
+        model_a: camera
         model_b: kuka_robot
-    free_frames_initial_values:
-      - checkerboard
-    checkerboard_initial_values:
-      x: 0.0
-      y: 0.0
-      z: 0.2  
-      roll: 0.0
-      pitch: 0.0
-      yaw: 0.0
-      #ground_plane:
-      #  type: chain3d_to_plane
-      #  model: ground_camera
-      #  a: 0.0
-      #  b: 0.0
-      #  c: 1.0
-      #  d: 0.0
-      #  scale: 1.0
-      #restrict_camera:
-      #  type: outrageous
-      #  param: head_camera_rgb_joint
-      #  joint_scale: 0.0
-      #  position_scale: 0.1
-      #  rotation_scale: 0.1
+      restrict_camra:
+        type: outrageous
+        param: camera_joint
+        joint_scale: 0.0
+        position_scale: 0.1
+        rotation_scale: 0.1

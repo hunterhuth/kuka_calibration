@@ -135,14 +135,23 @@ def generate_launch_description():
         'calibration_poses.yaml'
     )
 
-    rc_genicam_driver_node = Node(
-        package='rc_genicam_driver',
-        executable='rc_genicam_driver',
+    #rc_genicam_driver_node = Node(
+    #    package='rc_genicam_driver',
+    #    executable='rc_genicam_driver',
+    #    output='screen',
+    #    parameters=[{
+    #        'device': ':06864352'
+    #        }]
+    #)
+
+    realsense_node = Node(
+        package='realsense2_camera',
+        executable='realsense2_camera_node',
         output='screen',
-        parameters=[{
-            'device': ':06864352'
-            }]
-    )
+        parameters=[{"pointcloud.enable": True,
+                     "pointcloud.ordered_pc": True,
+                     "pointcloud.stream_filter": 2,
+                     "publish_tf": False}])
 
     # Make a directory for bagfiles to be located
     try:
@@ -155,7 +164,8 @@ def generate_launch_description():
         robot_state_pub_node,
         joint_state_broadcaster_spawner,
         robot_controller_spawner,
-        rc_genicam_driver_node,
+        realsense_node,
+        #rc_genicam_driver_node,
         # Calibration
         Node(
             name='robot_calibration',
@@ -163,7 +173,7 @@ def generate_launch_description():
             executable='calibrate',
             arguments=[calibration_poses],
             parameters=[capture_config,
-                        calibration_config],
+                      calibration_config],
             output='screen',
         ),
         # Record bagfile for debugging

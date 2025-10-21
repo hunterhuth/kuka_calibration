@@ -1,19 +1,1054 @@
 - features: []
-    joints:
-      - external1
-      - joint1
-      - joint2
-      - joint3
-      - joint4
-      - joint5
-      - joint6
-    positions:
-      - 2.93127
-      - 1.4809119
-      - -0.90530228
-      - 1.81217536
-      - -0.18168878
-      - -0.885231
-      - 0.0942478
-
-
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 2.93127
+    - 1.4809119
+    - -0.90530228
+    - 1.81217536
+    - -0.18168878
+    - -0.885231
+    - 0.0942478
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 2.73
+    - 1.4721852
+    - -0.9791297
+    - 1.977458
+    - -0.18029251
+    - -0.97598812
+    - 0.07993608
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 2.73
+    - 1.1428416
+    - -1.0742502
+    - 1.6238543
+    - -1.0302679
+    - -0.82170101
+    - 0.85538587
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 2.73
+    - 1.1906636
+    - -1.1234684
+    - 1.6446238
+    - -1.0641272
+    - -0.72413711
+    - 0.59428461
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.035
+    - 1.24791
+    - -0.90198616
+    - 1.2709488
+    - -1.1857767
+    - -0.61138884
+    - 0.7801622
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.035
+    - 1.1973327
+    - -0.81122904
+    - 1.233948
+    - -1.0395181
+    - -0.78155844
+    - 1.1304498
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 2.93
+    - 1.1973327
+    - -0.81122904
+    - 1.233948
+    - -1.0395181
+    - -0.78155844
+    - 1.1304498
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 2.93
+    - 1.1768755
+    - -0.69673544
+    - 1.2658873
+    - -0.92310464
+    - -0.86097092
+    - 0.96220002
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.13
+    - 1.1768755
+    - -0.69673544
+    - 1.2658873
+    - -0.92310464
+    - -0.86097092
+    - 0.96220002
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.13
+    - 1.1768755
+    - -0.69673544
+    - 1.2658873
+    - -0.92310464
+    - -0.86097092
+    - 0.96220002
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.45
+    - 1.1768755
+    - -0.69673544
+    - 1.2658873
+    - -0.92310464
+    - -0.86097092
+    - 0.96220002
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 2.9
+    - 1.2681562
+    - -0.81087997
+    - 1.3390166
+    - -0.99239421
+    - -0.64699355
+    - 0.44139377
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 2.7
+    - 1.2681562
+    - -0.81087997
+    - 1.3390166
+    - -0.99239421
+    - -0.64699355
+    - 0.44139377
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 2.7
+    - 1.2681562
+    - -0.65240407
+    - 1.377065
+    - -0.81140357
+    - -0.7696902
+    - 0.20944
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.3
+    - 1.2681562
+    - -0.65240407
+    - 1.377065
+    - -0.81140357
+    - -0.7696902
+    - 0.20944
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.8
+    - 1.2681562
+    - -0.65240407
+    - 1.377065
+    - -0.81140357
+    - -0.7696902
+    - 0.20944
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.8
+    - 1.1405727
+    - -0.3970624
+    - 0.97755891
+    - -1.20428
+    - -1.1042698
+    - 1.2229522
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.4
+    - 1.1405727
+    - -0.3970624
+    - 0.97755891
+    - -1.20428
+    - -1.1042698
+    - 1.2229522
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.2
+    - 1.1405727
+    - -0.3970624
+    - 0.97755891
+    - -1.20428
+    - -1.1042698
+    - 1.2229522
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 2.7
+    - 1.423316
+    - -0.69586277
+    - 1.3999286
+    - -0.9403834
+    - -0.64612089
+    - 0.1720895
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 2.7
+    - 1.423316
+    - -0.69586277
+    - 1.3999286
+    - -0.9403834
+    - -0.64612089
+    - 0.1720895
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 2.35
+    - 1.3969615
+    - -0.86603237
+    - 1.78041037
+    - -0.79011055
+    - -0.7972664
+    - -0.05270894
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 2.35
+    - 1.3969615
+    - -0.86603237
+    - 1.78041037
+    - -0.79011055
+    - -0.7972664
+    - -0.05270894
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 2.83
+    - 1.3969615
+    - -0.86603237
+    - 1.78041037
+    - -0.79011055
+    - -0.7972664
+    - -0.05270894
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.4
+    - 1.3969615
+    - -0.86603237
+    - 1.78041037
+    - -0.79011055
+    - -0.7972664
+    - -0.05270894
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.4
+    - 1.3969615
+    - -0.86603237
+    - 1.78041037
+    - -0.79011055
+    - -0.7972664
+    - 1.2290609
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.94
+    - 1.4191272
+    - -0.31782446
+    - 0.60545472
+    - -1.3046336
+    - -0.51452306
+    - 1.90432875
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.5
+    - 1.4191272
+    - -0.31782446
+    - 0.60545472
+    - -1.3046336
+    - -0.51452306
+    - 1.90432875
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.5
+    - 1.4191272
+    - -0.31782446
+    - 0.60545472
+    - -1.3046336
+    - -0.51452306
+    - 1.90432875
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.27
+    - 1.4191272
+    - -0.31782446
+    - 0.60545472
+    - -1.3046336
+    - -0.51452306
+    - 1.90432875
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 2.52
+    - 1.3503612
+    - -1.0695378
+    - 1.7558012
+    - -0.8866273
+    - -0.75974182
+    - 1.5845844
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 2.93
+    - 1.3503612
+    - -1.0695378
+    - 1.7558012
+    - -0.8866273
+    - -0.75974182
+    - 1.5845844
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.9
+    - 1.4023721
+    - -0.694641
+    - 1.0573205
+    - -1.1976449
+    - -0.5532694
+    - 2.00625598
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.9
+    - 1.4023721
+    - -0.694641
+    - 1.0573205
+    - -1.1976449
+    - -0.5532694
+    - 2.00625598
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.9
+    - 1.5018558
+    - -0.84159777
+    - 0.87929688
+    - -2.897490904
+    - -0.31660273
+    - 2.26893
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.7
+    - 1.5018558
+    - -0.84159777
+    - 0.87929688
+    - -2.897490904
+    - -0.31660273
+    - 2.26893
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 2.9
+    - 1.4601425
+    - -1.5381587
+    - 1.87640348
+    - -1.6454964
+    - -0.1150172
+    - 0.99169608
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 2.9
+    - 1.5125023
+    - -1.2540191
+    - 1.80955737
+    - -0.1129228
+    - -0.2136283
+    - -0.6419321
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 2.54
+    - 1.5125023
+    - -1.2540191
+    - 1.80955737
+    - -0.1129228
+    - -0.2136283
+    - -0.6419321
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 2.54
+    - 1.77604705
+    - -1.2051498
+    - 1.79995806
+    - 0.75904369
+    - -0.3286455
+    - -2.62567333
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 2.54
+    - 1.77604705
+    - -1.2051498
+    - 1.79995806
+    - 0.75904369
+    - -0.3286455
+    - -2.62567333
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.2
+    - 1.7374753
+    - -0.9388126
+    - 1.3622295
+    - 1.2002629
+    - -0.20158553
+    - -3.10092648
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.2
+    - 1.7680185
+    - -1.1601204
+    - 1.7310176
+    - 0.79150682
+    - -0.30682888
+    - -2.66441964
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.9
+    - 1.708677
+    - -0.55082591
+    - 0.63233279
+    - 2.58937048
+    - -0.30997048
+    - -4.52860581
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.9
+    - 1.708677
+    - -0.48956486
+    - 0.7410668
+    - 2.0970131
+    - 0.08063421
+    - -3.17597564
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.39
+    - 1.708677
+    - -0.48956486
+    - 0.7410668
+    - 2.0970131
+    - 0.08063421
+    - -3.17597564
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 2.97
+    - 1.738697
+    - -0.84334309
+    - 1.453859
+    - 3.03844369
+    - 0.40160026
+    - -4.11792984
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 2.97
+    - 1.738697
+    - -0.84334309
+    - 1.453859
+    - 3.97254391
+    - 0.40160026
+    - -4.11792984
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 2.97
+    - 1.96192461
+    - -0.6716027
+    - 1.2960815
+    - 4.27396227
+    - 0.56129789
+    - -4.31113779
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 2.97
+    - 1.96192461
+    - -0.6716027
+    - 1.2960815
+    - 4.27396227
+    - 0.56129789
+    - -4.31113779
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.34
+    - 1.96192461
+    - -0.34766959
+    - 0.60528018
+    - 3.16323474
+    - 0.4564036
+    - -5.05813871
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 4.45
+    - 1.96192461
+    - -0.34766959
+    - 0.60528018
+    - 3.16323474
+    - 0.4564036
+    - -5.05813871
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 4.45
+    - 1.90205982
+    - -0.39112829
+    - 0.1206023
+    - 5.59570011
+    - 0.74926985
+    - -5.86989134
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 4.45
+    - 1.78582089
+    - -0.58171824
+    - 0.50649455
+    - 4.5486771
+    - 0.009424778
+    - -4.48060926
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 4.45
+    - 1.78582089
+    - -0.58171824
+    - 0.50649455
+    - 1.6041321
+    - 0.009424778
+    - -1.80030712
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 4.45
+    - 1.78582089
+    - -0.49602257
+    - 0.77597339
+    - 3.11471458
+    - 0.35657077
+    - -3.20774063
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.52
+    - 1.78582089
+    - -0.49602257
+    - 0.77597339
+    - 3.11471458
+    - 0.35657077
+    - -3.20774063
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.52
+    - 1.96035382
+    - -0.3106686
+    - 0.3822271
+    - 4.52965301
+    - 0.60999257
+    - -4.62529705
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.52
+    - 2.07205489
+    - -0.82431901
+    - 1.4323917
+    - 4.08791017
+    - 0.93287849
+    - -3.97481284
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.52
+    - 2.20696884
+    - -0.68975412
+    - 1.1753047
+    - 4.22526759
+    - 0.9854129
+    - -4.35215302
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.52
+    - 2.20696884
+    - -0.50823988
+    - 1.1943288
+    - 4.12299129
+    - 1.0885619
+    - -4.1521383
+- features: []
+  joints:
+    - external1
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+    - joint6
+  positions:
+    - 3.52
+    - 2.20696884
+    - -0.78592176
+    - 1.0964158
+    - 4.33958665
+    - 0.9122836
+    - -4.54780443
